@@ -114,3 +114,5 @@ driver.quit()
 data = {'Purchase Date': date, 'Titles': titles, 'Category': category, 'Status': status, 'Prices': prices}
 df = pd.DataFrame(data)
 df
+
+df.to_excel('Order_Details.xlsx')
